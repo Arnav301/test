@@ -42,7 +42,7 @@
 ## 🔧 Purpose
 To build a real-time, peer-powered skill-sharing platform that scales with users and supports meaningful learning interactions.
 
-## ⚙️ Tech Overview
+# ⚙️ Tech Overview
 
 ## 💻 Frontend
 
@@ -79,15 +79,24 @@ To build a real-time, peer-powered skill-sharing platform that scales with users
 - GitHub Actions
 - Postman
 
-📚 Concepts Used – SkillDrift
- ✅ Level 1 Concepts
+# 📚 Concepts Used – SkillDrift
+
+✅ Level 1 Concepts
+
 ✅ HTML, CSS, JavaScript
+
 ✅ React.js (SPA with routing)
+
 ✅ Node.js + Express.js (Backend API)
+
 ✅ MongoDB (User & session data)
+
 ✅ JWT authentication
+
 ✅ Git + GitHub (Version control)
+
 ✅ Deployment on Vercel & Render
+
 ✅ Responsive UI with Tailwind CSS
 
 🔐 Level 2 Concepts – SkillDrift
