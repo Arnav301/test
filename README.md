@@ -122,6 +122,7 @@ To build a real-time, peer-powered skill-sharing platform that scales with users
 ## 📅 Week 1 – Design + Website Development 🖥️
 
 Day      Tasks
+
 1–2 🧩  Finalize features, user flow, and wireframes (Figma or sketches)
 
 3–4 🎨  Set up React project, Tailwind CSS, landing page, and skill profile previews
