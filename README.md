@@ -131,71 +131,54 @@ Day      Tasks
 
 7   📱  Test responsive layout, polish overall frontend
 
-✅ Deliverables:
-UI wireframes
+## ✅ Deliverables:
 
+- UI wireframes
 
-Responsive frontend (with dummy data)
+- Responsive frontend (with dummy data)
 
-
-Initial GitHub project setup & structure
-
-
-
-📅 Week 2 – Backend + Authentication 🔗
-
-Day
-Tasks
-1–2 🧠
-Set up Express.js backend, MongoDB schemas (Users, Skills, Comments)
-3     🔐
-Add JWT + Google OAuth login functionality
-4     🔄
-Connect frontend forms (signup, comments) to backend APIs
-5     🚀
-Set up CI/CD with GitHub Actions, deploy on Render/Vercel
-6–7 🧑‍💼
-Build admin dashboard, implement full comment CRUD
+- Initial GitHub project setup & structure
 
 
 
+# 📅 Week 2 – Backend + Authentication 🔗
+
+Day     Tasks
+1–2 🧠  Set up Express.js backend, MongoDB schemas (Users, Skills, Comments)
+3   🔐  Add JWT + Google OAuth login functionality
+4   🔄  Connect frontend forms (signup, comments) to backend APIs
+5   🚀  Set up CI/CD with GitHub Actions, deploy on Render/Vercel
+6–7 🧑‍💼  Build admin dashboard, implement full comment CRUD
+
+## ✅ Deliverables:
+
+- Full-stack authentication working
+
+- Admin-protected routes
+
+- Live deployed website (frontend + backend)
+
+# 📅 Week 3 – Real-Time Features + Final Touches ⚡
+
+Day Tasks
+1–2 🤝  Implement smart matchmaking logic (skill exchange pairing)
+3–4 💬  Finalize comment interactions, add session scheduling UI
+5   🧪  Test complete user journey (signup, match, comment, feedback)
+6   📄  Write README, finalize documentation, prep walkthrough video
+7   🎥  Submit everything: GitHub repo, deployed link, Google Doc, and video demo
 
 
- ✅ Deliverables:
-Full-stack authentication working
+## ✅ Deliverables:
 
+- Fully functional skill exchange platform with smart matchmaking, real-time interactions, and session management
 
-Admin-protected routes
+- Submission-ready project assets including GitHub repo, live website, Google Doc, and final demo video
 
+- Complete documentation and README for future scalability or deployment
 
-Live deployed website (frontend + backend)
+## ✅ Additional Deliverable:
 
-📅 Week 3 – Real-Time Features + Final Touches ⚡
-
-Day
-Tasks
-1–2 🤝
-Implement smart matchmaking logic (skill exchange pairing)
-3–4 💬
-Finalize comment interactions, add session scheduling UI
-5     🧪
-Test complete user journey (signup, match, comment, feedback)
-6     📄
-Write README, finalize documentation, prep walkthrough video
-7     🎥
-Submit everything: GitHub repo, deployed link, Google Doc, and video demo
-
-
-✅ Deliverables:
-Fully functional skill exchange platform with smart matchmaking, real-time interactions, and session management
-
-
-Submission-ready project assets including GitHub repo, live website, Google Doc, and final demo video
-
-
-Complete documentation and README for future scalability or deployment
-✅ Additional Deliverable:
-User Feedback and Test Results – Collect feedback from beta users during testing to evaluate the platform's effectiveness and identify areas for future improvements.
+- User Feedback and Test Results – Collect feedback from beta users during testing to evaluate the platform's effectiveness and identify areas for future improvements.
 
 ✅ Submission Checklist – SkillDrift
 
