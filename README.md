@@ -165,11 +165,16 @@ Day     Tasks
 
 # 📅 Week 3 – Real-Time Features + Final Touches ⚡
 
-Day Tasks
+Day      Tasks
+
 1–2 🤝  Implement smart matchmaking logic (skill exchange pairing)
+
 3–4 💬  Finalize comment interactions, add session scheduling UI
+
 5   🧪  Test complete user journey (signup, match, comment, feedback)
+
 6   📄  Write README, finalize documentation, prep walkthrough video
+
 7   🎥  Submit everything: GitHub repo, deployed link, Google Doc, and video demo
 
 
