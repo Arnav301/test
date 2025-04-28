@@ -123,8 +123,11 @@ To build a real-time, peer-powered skill-sharing platform that scales with users
 
 Day      Tasks
 1–2 🧩  Finalize features, user flow, and wireframes (Figma or sketches)
+
 3–4 🎨  Set up React project, Tailwind CSS, landing page, and skill profile previews
+
 5–6 🔐  Build signup/login UI, contact page, and community comment wall
+
 7   📱  Test responsive layout, polish overall frontend
 
 ✅ Deliverables:
