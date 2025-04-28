@@ -7,6 +7,7 @@
 # 🧠 Project Brief: Learn, Teach, Grow—Together.
 
 🚀 SkillDrift is your go-to platform for real-time, peer-powered skill exchange. Whether you're a coding whiz, design guru, guitar enthusiast, or language lover, SkillDrift connects you with people who want to learn what you know—and teach what you don’t.
+
 🌐 The platform enables you to:
 
 - 📜 Create a skill profile listing what you can teach and what you want to learn
@@ -40,21 +41,43 @@
 # 🛠️ Tech Stack – SkillDrift
 ## 🔧 Purpose
 To build a real-time, peer-powered skill-sharing platform that scales with users and supports meaningful learning interactions.
-⚙️ Tech Overview
-💻 Frontend
- React.js, Tailwind CSS, React Router
-🧠 Backend
- Node.js, Express.js
-🗄️ Database
- MongoDB Atlas
-🔐 Auth
- JWT, Google OAuth 2.0
-🖥️ Desktop App (optional future feature)
- Electron.js, Node.js, IPC
-☁️ Deployment
- Vercel or Netlify (frontend), Render (backend)
-🧰 Tools
- GitHub, GitHub Actions, Postman
+
+## ⚙️ Tech Overview
+
+## 💻 Frontend
+
+- React.js
+- Tailwind CSS 
+- React Router
+
+## 🧠 Backend
+- Node.js
+- Express.js
+
+## 🗄️ Database
+
+- MongoDB Atlas
+
+## 🔐 Auth 
+
+- JWT
+- Google OAuth 2.0
+
+## 🖥️ Desktop App (optional future feature)
+
+- Electron.js
+- Node.js
+- IPC
+
+## ☁️ Deployment
+
+- Vercel or Netlify (frontend)
+- Render (backend)
+
+## 🧰 Tools
+- GitHub
+- GitHub Actions
+- Postman
 
 📚 Concepts Used – SkillDrift
  ✅ Level 1 Concepts
