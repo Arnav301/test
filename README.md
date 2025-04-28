@@ -1,9 +1,10 @@
-## 🎓 Capstone Project – SkillDrift: A Peer-to-Peer Skill Exchange Platform
+# 🎓 Capstone Project – SkillDrift: A Peer-to-Peer Skill Exchange Platform
 
 ⏳ Duration: 3 Weeks
+
 💻 Built For: Lifelong learners, upskillers & passionate sharers 🌍✨
 
-## 🧠 Project Brief: Learn, Teach, Grow—Together.
+# 🧠 Project Brief: Learn, Teach, Grow—Together.
 
 🚀 SkillDrift is your go-to platform for real-time, peer-powered skill exchange. Whether you're a coding whiz, design guru, guitar enthusiast, or language lover, SkillDrift connects you with people who want to learn what you know—and teach what you don’t.
 🌐 The platform enables you to:
@@ -36,8 +37,8 @@
 
 - 💬 Community Feedback Wall
 
-## 🛠️ Tech Stack – SkillDrift
-# 🔧 Purpose
+# 🛠️ Tech Stack – SkillDrift
+## 🔧 Purpose
 To build a real-time, peer-powered skill-sharing platform that scales with users and supports meaningful learning interactions.
 ⚙️ Tech Overview
 💻 Frontend
