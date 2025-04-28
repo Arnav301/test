@@ -192,24 +192,18 @@ Day      Tasks
 
 ✅ Submission Checklist – SkillDrift
 
-            Item
- Stats
-📦 GitHub Repo
+  Item         Stats
+- 📦 GitHub Repo     ✅
 
+- 🌐 Live Website    ✅
 
-🌐 Live Website
+- 🖥️ Desktop App     ✅
 
+- 📄 Documentation (README + Tech Docs)    ✅
 
-🖥️ Desktop App
+- 🎥 Demo Video      ✅
 
-
-📄 Documentation (README + Tech Docs)
-
-
-🎥 Demo Video
-
-
-📝 Google Doc (shared w/ comment access)
+- 📝 Google Doc (shared w/ comment access)   ✅
 
 
 
