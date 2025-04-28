@@ -206,15 +206,12 @@ Day      Tasks
 - 📝 Google Doc (shared w/ comment access)   ✅
 
 
-
-
-
-🌟 Final Note – SkillDrift
+# 🌟 Final Note – SkillDrift
 
 SkillDrift is more than just a platform — it’s a community-driven space designed to empower learners and mentors alike. By connecting people through skill-sharing, we help users grow, collaborate, and build meaningful relationships. This project blends real-time learning with user-centric design, providing a powerful environment for anyone passionate about personal development.
 
 
-⭐Let’s turn skill-building into a shared journey and make learning a fun, collective experience.
+## ⭐Let’s turn skill-building into a shared journey and make learning a fun, collective experience.
 
 
 
