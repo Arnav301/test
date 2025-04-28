@@ -144,10 +144,15 @@ Day      Tasks
 # 📅 Week 2 – Backend + Authentication 🔗
 
 Day     Tasks
+
 1–2 🧠  Set up Express.js backend, MongoDB schemas (Users, Skills, Comments)
+
 3   🔐  Add JWT + Google OAuth login functionality
+
 4   🔄  Connect frontend forms (signup, comments) to backend APIs
+
 5   🚀  Set up CI/CD with GitHub Actions, deploy on Render/Vercel
+
 6–7 🧑‍💼  Build admin dashboard, implement full comment CRUD
 
 ## ✅ Deliverables:
