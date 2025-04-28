@@ -99,14 +99,21 @@ To build a real-time, peer-powered skill-sharing platform that scales with users
 
 - ✅ Responsive UI with Tailwind CSS
 
-🔐 Level 2 Concepts – SkillDrift
-🔐 Google OAuth Login
-🔄 REST API & CRUD Operations
-🧑‍💼 Admin Panel (protected route)
-💬 Comment System
-🔄 Electron IPC Communication (for potential desktop app extension)
-🖼️ Form validation, Custom Hooks
-🚀 GitHub Actions for CI/CD
+# 🔐 Level 2 Concepts – SkillDrift
+
+- 🔐 Google OAuth Login
+
+- 🔄 REST API & CRUD Operations
+
+- 🧑‍💼 Admin Panel (protected route)
+
+- 💬 Comment System
+
+- 🔄 Electron IPC Communication (for potential desktop app extension)
+
+- 🖼️ Form validation, Custom Hooks
+
+- 🚀 GitHub Actions for CI/CD
 
 
 
