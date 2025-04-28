@@ -117,19 +117,15 @@ To build a real-time, peer-powered skill-sharing platform that scales with users
 
 
 
-🗓️ 3-Week Timeline – SkillDrift
-📅 Week 1 – Design + Website Development 🖥️
+# 🗓️ 3-Week Timeline – SkillDrift 
 
-Day
-Tasks
-1–2 🧩
-Finalize features, user flow, and wireframes (Figma or sketches)
-3–4 🎨
-Set up React project, Tailwind CSS, landing page, and skill profile previews
-5–6 🔐
-Build signup/login UI, contact page, and community comment wall
-7     📱
-Test responsive layout, polish overall frontend
+## 📅 Week 1 – Design + Website Development 🖥️
+
+Day      Tasks
+1–2 🧩  Finalize features, user flow, and wireframes (Figma or sketches)
+3–4 🎨  Set up React project, Tailwind CSS, landing page, and skill profile previews
+5–6 🔐  Build signup/login UI, contact page, and community comment wall
+7   📱  Test responsive layout, polish overall frontend
 
 ✅ Deliverables:
 UI wireframes
