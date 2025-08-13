@@ -1,217 +1,151 @@
-# 🎓 Capstone Project – SkillDrift: A Peer-to-Peer Skill Exchange Platform
+# 🎨 FlowBoard – Real-Time Collaborative Whiteboard
+⏳ Duration: 10 Days
 
-⏳ Duration: 3 Weeks
+💻 Built For: Remote teams, educators, students, designers, and collaborators who need a shared creative space.
 
-💻 Built For: Lifelong learners, upskillers & passionate sharers 🌍✨
+# 🧠 Project Brief: Draw, Write, Create—Together.
 
-# 🧠 Project Brief: Learn, Teach, Grow—Together.
-
-🚀 SkillDrift is your go-to platform for real-time, peer-powered skill exchange. Whether you're a coding whiz, design guru, guitar enthusiast, or language lover, SkillDrift connects you with people who want to learn what you know—and teach what you don’t.
+🚀 FlowBoard is your go-to real-time collaborative whiteboard that enables multiple people to create, annotate, and brainstorm together—no matter where they are. Whether you’re planning a project, teaching a class, designing wireframes, or just doodling with friends, FlowBoard makes collaboration instant and fun.
 
 🌐 The platform enables you to:
+- 🖌️ Draw & Annotate — Use pens, highlighters, shapes, and colors to bring ideas to life.
 
-- 📜 Create a skill profile listing what you can teach and what you want to learn
+- 👥 Live Presence — See where and what your teammates are working on in real time.
 
-- 🤝 Match with peers based on complementary skills & learning goals
+- ✍️ User Attribution — Instantly know who is drawing, erasing, or editing.
 
-- 🗓️ Schedule skill sessions, track progress, and give feedback
+- 🛠️ Multiple Tools — Choose between freehand drawing, text input, sticky notes, shapes, and erasers.
 
-- 🧭 Join Skill Circles—small, topic-focused learning groups for accountability and growth
+- 📤 Instant Sharing — Share a simple link and collaborate instantly—no sign-up required.
 
-- 🏅 Earn Skill Points & badges for consistency, community contribution, and verified teaching
+- 🔄 Live Sync — Every stroke, note, and change appears instantly for all participants.
 
-- 🎥 Bonus: Sessions can be live, recorded, or async—choose your style!
+- 💬 In-Board Chat — Talk with collaborators while creating.
 
-- 🔄 With built-in gamification, SkillDrift rewards collaborative learning and makes skill-sharing a dynamic journey rather than a one-way lecture.
+- 📜 Board History — Undo/redo with real-time history tracking.
 
-- 🧩 Core Features – SkillDrift
+# 🧩 Core Features – FlowBoard
 
-- 🌐 Peer-to-Peer Skill Exchange
+- Realtime Multi-User Drawing via WebRTC (peer-to-peer)
 
-- 📜 Custom Skill Profiles
+- User Presence & Identity (name + cursor color)
 
-- 🤝 Smart Matchmaking Engine
+- Interactive Tool Panel (pen, highlighter, shapes, eraser, text)
 
-- 🗓️ Session Scheduling & Progress Tracking
+- Live Collaboration Without Refresh
 
-- 👤 Secure Auth (JWT + Google OAuth)
+- Download as Image or PDF
 
-- 💬 Community Feedback Wall
+- Invite Link Sharing
 
-# 🛠️ Tech Stack – SkillDrift
-## 🔧 Purpose
-To build a real-time, peer-powered skill-sharing platform that scales with users and supports meaningful learning interactions.
+- Optional Authentication for private boards
 
-# ⚙️ Tech Overview
+- Cross-Device Support (desktop, tablet, stylus-enabled devices)
 
-## 💻 Frontend
+# 🛠️ Tech Stack – FlowBoard
+🔧 Purpose
+To build a real-time collaborative whiteboard that feels instant, intuitive, and powerful—perfect for both structured planning and creative brainstorming.
+
+⚙️ Tech Overview
+💻 Frontend
 
 - React.js
-- Tailwind CSS 
-- React Router
 
-## 🧠 Backend
-- Node.js
-- Express.js
+- Tailwind CSS
 
-## 🗄️ Database
+- Zustand (state management)
 
-- MongoDB Atlas
+- Fabric.js / Konva.js for canvas drawing
 
-## 🔐 Auth 
+🧠 Realtime Layer
+
+- Yjs (CRDT-based data sync)
+
+- y-webrtc for peer-to-peer updates
+
+🗄️ Backend (optional)
+
+- Node.js + Express.js for authentication & board persistence
+
+- MongoDB Atlas for board storage
+
+🔐 Auth
 
 - JWT
+
 - Google OAuth 2.0
 
-## 🖥️ Desktop App (optional future feature)
-
-- Electron.js
-- Node.js
-- IPC
-
-## ☁️ Deployment
+☁️ Deployment
 
 - Vercel or Netlify (frontend)
-- Render (backend)
 
-## 🧰 Tools
+- Render (backend, if using auth/storage)
+
+🧰 Tools
+
 - GitHub
-- GitHub Actions
-- Postman
 
-# 📚 Concepts Used – SkillDrift
+- GitHub Actions (CI/CD)
 
-- ✅ Level 1 Concepts
+- Figma (UI Design)
 
-- ✅ HTML, CSS, JavaScript
+- Postman (API Testing)
 
-- ✅ React.js (SPA with routing)
+🗓️ 10-Day Timeline – FlowBoard
+📅 Days 1–3 – Design + Canvas Setup 🎨
+- Finalize features, wireframes, and tool UI in Figma
 
-- ✅ Node.js + Express.js (Backend API)
+- Set up React + Tailwind, basic canvas rendering, and tool panel UI
 
-- ✅ MongoDB (User & session data)
+- Implement pen, highlighter, eraser tools
 
-- ✅ JWT authentication
+- Test responsive layout and touch/stylus support
 
-- ✅ Git + GitHub (Version control)
-
-- ✅ Deployment on Vercel & Render
-
-- ✅ Responsive UI with Tailwind CSS
-
-# 🔐 Level 2 Concepts – SkillDrift
-
-- 🔐 Google OAuth Login
-
-- 🔄 REST API & CRUD Operations
-
-- 🧑‍💼 Admin Panel (protected route)
-
-- 💬 Comment System
-
-- 🔄 Electron IPC Communication (for potential desktop app extension)
-
-- 🖼️ Form validation, Custom Hooks
-
-- 🚀 GitHub Actions for CI/CD
-
-
-
-# 🗓️ 3-Week Timeline – SkillDrift 
-
-## 📅 Week 1 – Design + Website Development 🖥️
-
-Day      Tasks
-
-1–2 🧩  Finalize features, user flow, and wireframes (Figma or sketches)
-
-3–4 🎨  Set up React project, Tailwind CSS, landing page, and skill profile previews
-
-5–6 🔐  Build signup/login UI, contact page, and community comment wall
-
-7   📱  Test responsive layout, polish overall frontend
-
-## ✅ Deliverables:
+✅ Deliverables:
 
 - UI wireframes
 
-- Responsive frontend (with dummy data)
+- Canvas with drawing tools
 
-- Initial GitHub project setup & structure
+- Basic color and thickness controls
 
+- Responsive frontend
 
+📅 Days 4–7 – Real-Time Collaboration ⚡
+- Integrate Yjs + y-webrtc for real-time sync
 
-# 📅 Week 2 – Backend + Authentication 🔗
+- Add live cursors with user names/colors
 
-Day     Tasks
+- Implement presence tracking (“Arnav is drawing…”)
 
-1–2 🧠  Set up Express.js backend, MongoDB schemas (Users, Skills, Comments)
+- Invite link sharing and session joining
 
-3   🔐  Add JWT + Google OAuth login functionality
+- Add undo/redo and save/load board state
 
-4   🔄  Connect frontend forms (signup, comments) to backend APIs
+✅ Deliverables:
 
-5   🚀  Set up CI/CD with GitHub Actions, deploy on Render/Vercel
+- Fully working multi-user sync
 
-6–7 🧑‍💼  Build admin dashboard, implement full comment CRUD
+- User presence
 
-## ✅ Deliverables:
+- Persistent session links
 
-- Full-stack authentication working
+📅 Days 8–10 – Advanced Features + Final Touches ✨
 
-- Admin-protected routes
+- Implement text tool, sticky notes, shapes
 
-- Live deployed website (frontend + backend)
+- Add chat feature within the board
 
-# 📅 Week 3 – Real-Time Features + Final Touches ⚡
+- Add export as PNG/PDF option
 
-Day      Tasks
+- Final QA testing, bug fixes, polish UI
 
-1–2 🤝  Implement smart matchmaking logic (skill exchange pairing)
+- Prepare README, walkthrough video, deploy final app
 
-3–4 💬  Finalize comment interactions, add session scheduling UI
+✅ Deliverables:
 
-5   🧪  Test complete user journey (signup, match, comment, feedback)
+- Full feature set
 
-6   📄  Write README, finalize documentation, prep walkthrough video
+- Live deployed FlowBoard
 
-7   🎥  Submit everything: GitHub repo, deployed link, Google Doc, and video demo
-
-
-## ✅ Deliverables:
-
-- Fully functional skill exchange platform with smart matchmaking, real-time interactions, and session management
-
-- Submission-ready project assets including GitHub repo, live website, Google Doc, and final demo video
-
-- Complete documentation and README for future scalability or deployment
-
-## ✅ Additional Deliverable:
-
-- User Feedback and Test Results – Collect feedback from beta users during testing to evaluate the platform's effectiveness and identify areas for future improvements.
-
-✅ Submission Checklist – SkillDrift
-
-  Item         Stats
-- 📦 GitHub Repo     ✅
-
-- 🌐 Live Website    ✅
-
-- 🖥️ Desktop App     ✅
-
-- 📄 Documentation (README + Tech Docs)    ✅
-
-- 🎥 Demo Video      ✅
-
-- 📝 Google Doc (shared w/ comment access)   ✅
-
-
-# 🌟 Final Note – SkillDrift
-
-SkillDrift is more than just a platform — it’s a community-driven space designed to empower learners and mentors alike. By connecting people through skill-sharing, we help users grow, collaborate, and build meaningful relationships. This project blends real-time learning with user-centric design, providing a powerful environment for anyone passionate about personal development.
-
-
-## ⭐Let’s turn skill-building into a shared journey and make learning a fun, collective experience.
-
-
-
+- Documentation + video demo
