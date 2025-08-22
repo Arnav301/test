@@ -64,3 +64,9 @@ This project includes the following AI/LLM concepts:
 - Temperature
 - Top P Sampling
 - Create Project Readme
+
+# 🎥 Video Explanation
+
+- I’ll explain the project idea.
+- Show how RAG + Gemini is used.
+- Walk through each assignment implementation.
