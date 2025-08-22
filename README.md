@@ -1,151 +1,66 @@
-# 🎨 FlowBoard – Real-Time Collaborative Whiteboard
-⏳ Duration: 10 Days
+# VentureMind AI — RAG + Gemini (Project README)
 
-💻 Built For: Remote teams, educators, students, designers, and collaborators who need a shared creative space.
+Turn raw startup ideas into structured, pitch‑ready plans using Retrieval‑Augmented Generation (RAG) + Google Gemini.
 
-# 🧠 Project Brief: Draw, Write, Create—Together.
+# 🔥 What is VentureMind AI?
 
-🚀 FlowBoard is your go-to real-time collaborative whiteboard that enables multiple people to create, annotate, and brainstorm together—no matter where they are. Whether you’re planning a project, teaching a class, designing wireframes, or just doodling with friends, FlowBoard makes collaboration instant and fun.
+VentureMind AI helps founders transform a one‑line startup idea into a complete, investor‑ready brief: problem & solution, market sizing, user personas, competitor landscape, go‑to‑market, monetization, risks, roadmap, and a crisp pitch. It blends:
 
-🌐 The platform enables you to:
-- 🖌️ Draw & Annotate — Use pens, highlighters, shapes, and colors to bring ideas to life.
+RAG over curated startup knowledge (frameworks, market benchmarks, competitor summaries, funding trends, pricing models, GTM playbooks).
 
-- 👥 Live Presence — See where and what your teammates are working on in real time.
+Gemini LLM for fluent, context‑aware narratives and structured outputs.
 
-- ✍️ User Attribution — Instantly know who is drawing, erasing, or editing.
+Dynamic prompting that adapts to user intent, maturity, and domain.
 
-- 🛠️ Multiple Tools — Choose between freehand drawing, text input, sticky notes, shapes, and erasers.
+# ️ Implementation
 
-- 📤 Instant Sharing — Share a simple link and collaborate instantly—no sign-up required.
+- Datasets & Knowledge Sources
 
-- 🔄 Live Sync — Every stroke, note, and change appears instantly for all participants.
+- Web/News/Reports: Real‑time search results, startup glossaries, funding databases (optional integrations).
 
-- 💬 In-Board Chat — Talk with collaborators while creating.
+- Internal Docs: Prompt libraries, pitch templates, ICP/persona patterns, GTM playbooks.
 
-- 📜 Board History — Undo/redo with real-time history tracking.
+- User Context: Prior conversations, saved ideas, sector preferences.
 
-# 🧩 Core Features – FlowBoard
+# RAG Pipeline
 
-- Realtime Multi-User Drawing via WebRTC (peer-to-peer)
+- Ingest & Index: Import templates, strategy docs, and curated research into a vector store.
 
-- User Presence & Identity (name + cursor color)
+- Retrieve: For each user idea, retrieve top‑k snippets (templates, comps, trends, benchmarks).
 
-- Interactive Tool Panel (pen, highlighter, shapes, eraser, text)
 
-- Live Collaboration Without Refresh
+# LLM Prompting Features
 
-- Download as Image or PDF
+- Zero‑shot / One‑shot / Few‑shot templates (e.g., YC‑style problem/solution, Lean Canvas, GTM checklists).
 
-- Invite Link Sharing
+- Dynamic Prompting: Adjust prompts using user context (stage, sector, geo) and retrieval signals.
 
-- Optional Authentication for private boards
+- Chain‑of‑Thought (hidden) for reasoning; outputs are concise & structured.
 
-- Cross-Device Support (desktop, tablet, stylus-enabled devices)
+- Controls: temperature, top‑p, token limits; style toggles (concise, persuasive, analytical).
 
-# 🛠️ Tech Stack – FlowBoard
-🔧 Purpose
-To build a real-time collaborative whiteboard that feels instant, intuitive, and powerful—perfect for both structured planning and creative brainstorming.
+# 🛠️ Tech Stack
 
-⚙️ Tech Overview
-💻 Frontend
+- LLM: Google Gemini API (recommendations, synthesis).
 
-- React.js
+- RAG Orchestration: LangChain (retrievers, chains, prompt templates, routers).
 
-- Tailwind CSS
+- Retrieval Adapters (optional): Web search connectors for news, funding rounds, market stats.
 
-- Zustand (state management)
+- Backend: Python (FastAPI) with async handlers.
 
-- Fabric.js / Konva.js for canvas drawing
 
-🧠 Realtime Layer
+# 📚 Assignments Covered
 
-- Yjs (CRDT-based data sync)
+This project includes the following AI/LLM concepts:
 
-- y-webrtc for peer-to-peer updates
-
-🗄️ Backend (optional)
-
-- Node.js + Express.js for authentication & board persistence
-
-- MongoDB Atlas for board storage
-
-🔐 Auth
-
-- JWT
-
-- Google OAuth 2.0
-
-☁️ Deployment
-
-- Vercel or Netlify (frontend)
-
-- Render (backend, if using auth/storage)
-
-🧰 Tools
-
-- GitHub
-
-- GitHub Actions (CI/CD)
-
-- Figma (UI Design)
-
-- Postman (API Testing)
-
-🗓️ 10-Day Timeline – FlowBoard
-📅 Days 1–3 – Design + Canvas Setup 🎨
-- Finalize features, wireframes, and tool UI in Figma
-
-- Set up React + Tailwind, basic canvas rendering, and tool panel UI
-
-- Implement pen, highlighter, eraser tools
-
-- Test responsive layout and touch/stylus support
-
-✅ Deliverables:
-
-- UI wireframes
-
-- Canvas with drawing tools
-
-- Basic color and thickness controls
-
-- Responsive frontend
-
-📅 Days 4–7 – Real-Time Collaboration ⚡
-- Integrate Yjs + y-webrtc for real-time sync
-
-- Add live cursors with user names/colors
-
-- Implement presence tracking (“Arnav is drawing…”)
-
-- Invite link sharing and session joining
-
-- Add undo/redo and save/load board state
-
-✅ Deliverables:
-
-- Fully working multi-user sync
-
-- User presence
-
-- Persistent session links
-
-📅 Days 8–10 – Advanced Features + Final Touches ✨
-
-- Implement text tool, sticky notes, shapes
-
-- Add chat feature within the board
-
-- Add export as PNG/PDF option
-
-- Final QA testing, bug fixes, polish UI
-
-- Prepare README, walkthrough video, deploy final app
-
-✅ Deliverables:
-
-- Full feature set
-
-- Live deployed FlowBoard
-
-- Documentation + video demo
+- System & User Prompts
+- Zero-Shot Prompting
+- One-Shot Prompting
+- Multi-Shot Prompting
+- Dynamic Prompting
+- Chain of Thought Prompting
+- Tokens & Tokenization
+- Temperature
+- Top P Sampling
+- Create Project Readme
