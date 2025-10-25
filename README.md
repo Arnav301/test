@@ -1,72 +1,73 @@
-# VentureMind AI — RAG + Gemini (Project README)
+# 🌌 Cosmic Well — A Digital Wellbeing Companion for Laptops
 
-Turn raw startup ideas into structured, pitch‑ready plans using Retrieval‑Augmented Generation (RAG) + Google Gemini.
+**Cosmic Well** is a cross-platform desktop app built with **Electron.js** and **React** designed to help you build healthier digital habits.  
+Whether you want to **focus deeply**, **track your screen time**, **schedule digital detoxes**, or **relax before sleep**, Cosmic Well helps you stay balanced in the digital world.  
 
-# 🔥 What is VentureMind AI?
+---
 
-VentureMind AI helps founders transform a one‑line startup idea into a complete, investor‑ready brief: problem & solution, market sizing, user personas, competitor landscape, go‑to‑market, monetization, risks, roadmap, and a crisp pitch. It blends:
+## 🚀 Features
 
-RAG over curated startup knowledge (frameworks, market benchmarks, competitor summaries, funding trends, pricing models, GTM playbooks).
+### 🧠 Focus Mode
+- Blocks distracting websites and apps temporarily.  
+- Helps you enter deep work sessions with customizable timers.  
+- Minimal, calming UI to reduce digital noise.  
 
-Gemini LLM for fluent, context‑aware narratives and structured outputs.
+### 🌙 Sleep Timer
+- Reminds you to wind down and power off before bedtime.  
+- Optional automatic app lock to prevent late-night scrolling.  
 
-Dynamic prompting that adapts to user intent, maturity, and domain.
+### 🕊️ Digital Detox
+- Schedule full “detox sessions” where all non-essential apps are paused.  
+- Encourages mindfulness and real-world engagement.  
 
-# ️ Implementation
+### 🪷 Mindfulness Zone
+- Includes guided breathing and mini meditation timers.  
+- Subtle background sounds for calm focus.  
 
-- Datasets & Knowledge Sources
+### ⏱️ Live App Time Tracking
+- Real-time tracking of how long you spend in each app.  
+- Visual stats dashboard to review daily and weekly activity.  
 
-- Web/News/Reports: Real‑time search results, startup glossaries, funding databases (optional integrations).
+---
 
-- Internal Docs: Prompt libraries, pitch templates, ICP/persona patterns, GTM playbooks.
+## 🧩 Tech Stack
 
-- User Context: Prior conversations, saved ideas, sector preferences.
+| Layer | Technology |
+|-------|-------------|
+| Frontend | **React.js**, **Tailwind CSS** |
+| Desktop Framework | **Electron.js** |
+| State Management | **Redux Toolkit** |
+| Data Storage | **LocalStorage / SQLite (via Electron)** |
+| Charting | **Recharts / Chart.js** |
+| Build & Packaging | **Electron Forge / Vite** |
 
-# RAG Pipeline
+---
 
-- Ingest & Index: Import templates, strategy docs, and curated research into a vector store.
+## 📦 Installation
 
-- Retrieve: For each user idea, retrieve top‑k snippets (templates, comps, trends, benchmarks).
+1. **Download the ZIP**
+   - Extract the `Cosmic-Well.zip` file anywhere on your system.
 
+2. **Run the App**
+   - Inside the extracted folder, open:
+     ```bash
+     Cosmic-Well.exe      # For Windows
+     ```
+   - The app will launch instantly — no installation required!
 
-# LLM Prompting Features
+3. **Optional (Developers)**
+   - If you’d like to run the project in dev mode:
+     ```bash
+     git clone https://github.com/yourusername/cosmic-well.git
+     cd cosmic-well
+     npm install
+     npm run dev
+     ```
+---
 
-- Zero‑shot / One‑shot / Few‑shot templates (e.g., YC‑style problem/solution, Lean Canvas, GTM checklists).
+## ⚙️ Build from Source
 
-- Dynamic Prompting: Adjust prompts using user context (stage, sector, geo) and retrieval signals.
-
-- Chain‑of‑Thought (hidden) for reasoning; outputs are concise & structured.
-
-- Controls: temperature, top‑p, token limits; style toggles (concise, persuasive, analytical).
-
-# 🛠️ Tech Stack
-
-- LLM: Google Gemini API (recommendations, synthesis).
-
-- RAG Orchestration: LangChain (retrievers, chains, prompt templates, routers).
-
-- Retrieval Adapters (optional): Web search connectors for news, funding rounds, market stats.
-
-- Backend: Python (FastAPI) with async handlers.
-
-
-# 📚 Assignments Covered
-
-This project includes the following AI/LLM concepts:
-
-- System & User Prompts
-- Zero-Shot Prompting
-- One-Shot Prompting
-- Multi-Shot Prompting
-- Dynamic Prompting
-- Chain of Thought Prompting
-- Tokens & Tokenization
-- Temperature
-- Top P Sampling
-- Create Project Readme
-
-# 🎥 Video Explanation
-
-- I’ll explain the project idea.
-- Show how RAG + Gemini is used.
-- Walk through each assignment implementation.
+To package the app yourself:
+```bash
+npm run build
+npm run package
