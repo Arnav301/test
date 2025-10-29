@@ -106,11 +106,5 @@ Your backend server will now be running with **nodemon** on the specified `PORT`
 
 ---
 
-## 👨‍💻 Author
-
-**[Arnav Verma](https://github.com/Arnav301)**
-Built with ❤️ using Node.js, Express, and MongoDB.
-
----
 
 
