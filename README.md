@@ -28,6 +28,7 @@ This project allows users to shorten long URLs and redirect them using a short, 
 
 1️⃣ Clone the repository
 git clone https://github.com/Arnav301/Url-Shortner.git
+
 cd url-shortener
 
 2️⃣ Install dependencies
@@ -62,3 +63,4 @@ GET	/:shortId	Redirects to the original URL
 - 🌐 Frontend using React.js
 
 - ☁️ Deploy to Render / Vercel
+
