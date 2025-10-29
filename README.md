@@ -1,19 +1,27 @@
 # 🔗 URL Shortener
 
-A simple and efficient URL Shortener backend built using Node.js, Express, and MongoDB.
-This project allows users to shorten long URLs and redirect them using a short, unique link.
+> A lightweight and efficient **URL Shortener backend** built using **Node.js**, **Express**, and **MongoDB**.
+> This API allows users to convert long URLs into compact, shareable links with instant redirection.
 
-# 🚀 Features
+---
 
-- 🔒 Shorten long URLs into easy-to-share short links
+## 🌟 Overview
 
-- 🔁 Redirect to original URLs instantly
+This project provides a **RESTful API** that shortens lengthy URLs and stores them in a **MongoDB** database. Each shortened URL is assigned a unique identifier and can be accessed to redirect users to the original link.
 
-- 💾 MongoDB integration for storing and retrieving links
+---
 
-- ⚙️ Environment configuration with dotenv
+## 🚀 Features
 
-- 🧩 Automatic server reload using nodemon
+* 🔒 **Shorten long URLs** into simple, easy-to-share short links
+* 🔁 **Instant redirection** to the original URLs
+* 💾 **MongoDB integration** for persistence and scalability
+* ⚙️ **Environment configuration** with `dotenv`
+* 🧩 **Hot reloading** with `nodemon` during development
+
+---
+
+## 🧮 Tech Stack
 
 | Category  | Technologies Used   |
 | --------- | ------------------- |
@@ -21,46 +29,88 @@ This project allows users to shorten long URLs and redirect them using a short, 
 | Database  | MongoDB             |
 | Utilities | dotenv, nodemon     |
 
+---
 
-# ⚙️ Installation
+## ⚙️ Installation & Setup
 
-## 💡 Frontend/Deployment integration instructions coming soon!
+> 💡 *Frontend and deployment integration instructions coming soon!*
 
-1️⃣ Clone the repository
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/Arnav301/Url-Shortner.git
-
 cd url-shortener
+```
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
+
+```bash
 npm install
+```
 
-3️⃣ Configure environment variables
+### 3️⃣ Configure environment variables
 
-Create a .env file in the root directory and add:
+Create a `.env` file in the root directory and add the following:
 
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 BASE_URL=http://localhost:5000
+```
 
-4️⃣ Run the server
+### 4️⃣ Run the server
+
+```bash
 npm run dev
+```
 
+Your backend server will now be running with **nodemon** on the specified `PORT`.
 
-The server runs using nodemon on your defined PORT.
+---
 
+## 📡 API Endpoints
 
-# 📡 API Endpoints
-Method	Endpoint	Description
-POST	/api/shorten	Shortens a long URL
-GET	/:shortId	Redirects to the original URL
+| Method   | Endpoint       | Description                   |
+| -------- | -------------- | ----------------------------- |
+| **POST** | `/api/shorten` | Shortens a long URL           |
+| **GET**  | `/:shortId`    | Redirects to the original URL |
 
-# 🧠 Future Enhancements
+### 📾 Example Request
 
-- 🔐 Add user authentication
+**POST** `/api/shorten`
 
-- 📊 Click tracking & analytics dashboard
+```json
+{
+  "longUrl": "https://www.example.com/very/long/link"
+}
+```
 
-- 🌐 Frontend using React.js
+### 🥯 Example Response
 
-- ☁️ Deploy to Render / Vercel
+```json
+{
+  "shortUrl": "http://localhost:5000/abc123",
+  "originalUrl": "https://www.example.com/very/long/link"
+}
+```
+
+---
+
+## 🧠 Future Enhancements
+
+* 🔐 **User authentication** and URL ownership
+* 📊 **Click tracking & analytics dashboard**
+* 🌐 **Frontend integration** using React.js
+* ☁️ **Cloud deployment** on Render / Vercel
+* 🧮 **Custom short URLs** and expiration options
+
+---
+
+## 👨‍💻 Author
+
+**[Arnav Verma](https://github.com/Arnav301)**
+Built with ❤️ using Node.js, Express, and MongoDB.
+
+---
+
 
